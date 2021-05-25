@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SST-ERP</title>
+    <link rel="stylesheet" href="assets/Css/styles.css">
+</head>
+
+<body>
+    <main>
+        <div class="container nav">
+            <nav class="nav-bar">
+                <div class="Menu-name">
+                    <h1 class="Name">Elementos de trabajo </h1>
+
+                </div>
+                <div class="Add-Button">
+                    <input type="button" value="Agregar trabajador" id="Add">
+                </div>
+                <div class="Exit-Button">
+                    <button type="button">
+                        <img src="assets/icons/Iconos Nav/Exit Icon.svg" alt="Exit icon" id="Exit-icon">
+                        <h3 class="Name">Salir</h3>
+                    </button>
+                    
+                </div>
+
+                <div class="Icons">
+                    <a target="_blank" href="#">
+                        <img src="assets/Icons/Iconos Nav/Constructor.svg" alt="Constructor icon">
+                    </a>
+                    <a target="_blank" href="#">
+                        <img src="assets/Icons/Iconos Nav/Herramientas.svg" alt="Constructor icon">
+                    </a>
+                    <a target="_blank" href="#">
+                        <img src="assets/Icons/Iconos Nav/Constuctores.svg" alt="Constructor icon">
+                    </a>
+                    <a target="_blank" href="#">
+                        <img src="assets/Icons/Iconos Nav/Advertencia.svg" alt="Constructor icon">
+                    </a>
+                    <a target="_blank" href="#">
+                        <img src="assets/Icons/Iconos Nav/Salida.svg" alt="Constructor icon">
+                    </a>
+                    <a target="_blank" href="#">
+                        <img src="assets/Icons/Iconos Nav/Busqueda.svg" alt="Constructor icon">
+                    </a>
+                    <a target="_blank" href="#">
+                        <img src="assets/Icons/Iconos Nav/LogoSGC.svg" alt="Constructor icon">
+                    </a>
+                    <a target="_blank" href="#">
+                        <img src="assets/Icons/Iconos Nav/Configuracion.svg" alt="Constructor icon">
+                    </a>
+
+                </div>
+
+            </nav>
+        </div>
+        <div class="ContainerSections">
+            <div class="Panel-Worker">
+                <div class="User-Img">
+                    <img src="assets/Icons/Iconos Panel/PersonIcon.png" alt="Img user">
+                </div>
+                <section class="Info">
+                    <h1 class="Text-Name">
+                        Deyner Antonio Romero Palomino
+                    </h1>
+                    <h2 class="Td">
+                        C.C 1039010010
+                    </h2>
+                    <h2 class="A">
+                        Lider de equipo de Desarrollo
+                    </h2>
+                    <h2 class="B">
+                        Directo GTH
+                    </h2>
+                    <hr color="#EDEDED" size=1 class="Linea">
+
+                </section>
+
+                <div class="Icons-Panel-Left">
+                    <a target="_blank" href="#" class="Dt">
+                        <img src="assets/Icons/Iconos Panel/Datos basicos.svg" alt="Constructor icon">
+                        <h1>Datos del trabajador</h1>
+                    </a>
+
+                    <a target="_blank" href="#" class="Dt">
+                        <img src="assets/Icons/Iconos Panel/Capacitaciones.svg" alt="Constructor icon">
+                        <h1>Capacitaciones</h1>
+
+                    </a>
+                    <a target="_blank" href="#" class="Dt">
+                        <img src="assets/Icons/Iconos Panel/Incapacidades.svg" alt="Constructor icon">
+                        <h1>Incapacidades</h1>
+
+                    </a>
+                    <a target="_blank" href="#" class="Dt">
+                        <img src="assets/Icons/Iconos Panel/Estado de salud.svg" alt="Constructor icon">
+                        <h1>Estado de salud</h1>
+
+                    </a>
+
+                </div>
+                <div class="Icons-Panel-Right">
+                    <a target="_blank" href="#" class="Dt">
+                        <img src="assets/Icons/Iconos Panel/Elementos de trabajo.svg" alt="Constructor icon">
+                        <h1 class="Et">Elementos de trabajo</h1>
+                    </a>
+
+                    <a target="_blank" href="#" class="Dt">
+                        <img src="assets/Icons/Iconos Panel/ExamenesYVacunas.svg" alt="Constructor icon">
+                        <h1>Exámenes y vacunas</h1>
+
+                    </a>
+                    <a target="_blank" href="#" class="Dt">
+                        <img src="assets/Icons/Iconos Panel/EnfermedadesLaborales.svg" alt="Constructor icon">
+                        <h1>Enfermedades laborales</h1>
+
+                    </a>
+                    <a target="_blank" href="#" class="Dt">
+                        <img src="assets/Icons/Iconos Panel/Accidentes laborales.svg" alt="Constructor icon">
+                        <h1>Accidentes laborales</h1>
+
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="Contents">
+                <header class="Header">
+                    <div class="Group">
+                        <div class="Pending-items-Left">
+                            <img src="assets/Icons/Iconos Header/Reloj.svg" alt="Reloj">
+                            <h1>Elementos pendientes por asignar</h1>
+                        </div>
+                        <hr class="Line-Header" size=1 color="#1B344C">
+                        <div class="Pending-items-Rigth">
+                            <img src="assets/Icons/Iconos Header/Check.svg" alt="Check">
+                            <h1>Elementos asignados</h1>
+                        </div>
+                    </div>
+                    <hr class="Header-bar" size=1 color="#1B344C">
+
+                </header>
+
+                <section class="Elements">
+                    <header class="WorksE">
+                        <h1>Elementos de trabajo pendientes por asignar</h1>
+                        <div class="TooltipFilter">
+                            <h1>Asignar nuevo elemento de trabajo</h1>
+                            <div class="Plg">
+                            </div>
+                        </div>
+                        <a target="_blank" href="#" class="Add">
+                            <img src="assets/Icons/Iconos Header/Mas.svg" alt="Mas">
+                        </a>
+
+                    </header>
+
+                    <div class="Records">
+                        <div class="Content">
+                            <div class="Data-Element">
+                                <h2 class="Pa">• Parche ocular (PROGRAMA SST)</h2>
+                                <h2 class="As">• ASEO Y CAFETERÍA</h2>
+                                <h2 class="Re">• Retiro</h2>
+                            </div>
+                            <hr class="Vertcial" size=0 color="#C4C4C4">
+                        </div>
+
+                        <div class="Status">
+                            <h2 class="TStatus">
+                                Estado
+                            </h2>
+                            <select class="InputP">
+                                <option>Pendiente</option>
+                            </select>
+                            <hr class="Vertcial2" size=0 color="#C4C4C4">
+                        </div>
+                        <div class="Deliver-date">
+                            <h2 class="Date">
+                                Fecha de entrega
+                            </h2>
+                            <input type="date" id="start" name="trip-start" value="2020-01-20" min="2019-01-01"
+                                max="2020-12-31">
+                            <hr class="Vertcial2" size=0 color="#C4C4C4">
+                        </div>
+                        <div class="Replacement-date">
+                            <h2 class="DateR">
+                                Fecha de reposición
+                            </h2>
+                            <input type="date" id="start" name="trip-start" value="2020-09-22" min="2019-01-01"
+                                max="2020-12-31">
+                            <hr class="Vertcial2" size=0 color="#C4C4C4">
+                        </div>
+
+                        <div class="Observations">
+                            <input type="text" value="Observaciones" name="Observaciones">
+                        </div>
+
+
+                        <div class="Upload">
+                            <label for="file-input">
+                                <img src="assets/Icons/Iconos Header/Clip.svg" />
+                            </label>
+
+                            <input id="file-input" type="file" />
+                        </div>
+
+                        <div class="ButtonC">
+                            <button type="button">
+                                <h3 class="Name">Completar</h3>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="Records2">
+                        <div class="Content">
+                            <div class="Data-Element">
+                                <h2 class="Pa">• Parche ocular (PROGRAMA SST)</h2>
+                                <h2 class="As">• ASEO Y CAFETERÍA</h2>
+                                <h2 class="Re">• Retiro</h2>
+                            </div>
+                            <hr class="Vertcial" size=0 color="#C4C4C4">
+                        </div>
+
+                        <div class="Status">
+                            <h2 class="TStatus">
+                                Estado
+                            </h2>
+                            <select class="InputP">
+                                <option>Pendiente</option>
+                            </select>
+                            <hr class="Vertcial2" size=0 color="#C4C4C4">
+                        </div>
+                        <div class="Deliver-date">
+                            <h2 class="Date">
+                                Fecha de entrega
+                            </h2>
+                            <input type="date" id="start" name="trip-start" value="2020-01-20" min="2019-01-01"
+                                max="2020-12-31">
+                            <hr class="Vertcial2" size=0 color="#C4C4C4">
+                        </div>
+                        <div class="Replacement-date">
+                            <h2 class="DateR">
+                                Fecha de reposición
+                            </h2>
+                            <input type="date" id="start" name="trip-start" value="2020-09-22" min="2019-01-01"
+                                max="2020-12-31">
+                            <hr class="Vertcial2" size=0 color="#C4C4C4">
+                        </div>
+
+                        <div class="Observations">
+                            <input type="text" value="Observaciones" name="Observaciones">
+                        </div>
+
+
+                        <div class="Upload">
+                            <label for="file-input">
+                                <img src="assets/Icons/Iconos Header/Clip.svg" />
+                            </label>
+
+                            <input id="file-input" type="file" />
+                        </div>
+
+                        <div class="ButtonC">
+                            <button type="button">
+                                <h3 class="Name">Completar</h3>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="Records4">
+                        <div class="Content">
+                            <div class="Data-Element">
+                                <h2 class="Pa">• Parche ocular (PROGRAMA SST)</h2>
+                                <h2 class="As">• ASEO Y CAFETERÍA</h2>
+                                <h2 class="Re">• Retiro</h2>
+                            </div>
+                            <hr class="Vertcial" size=0 color="#C4C4C4">
+                        </div>
+
+                        <div class="Status">
+                            <h2 class="TStatus">
+                                Estado
+                            </h2>
+                            <select class="InputP">
+                                <option>Pendiente</option>
+                            </select>
+                            <hr class="Vertcial2" size=0 color="#C4C4C4">
+                        </div>
+                        <div class="Deliver-date">
+                            <h2 class="Date">
+                                Fecha de entrega
+                            </h2>
+                            <input type="date" id="start" name="trip-start" value="2020-01-20" min="2019-01-01"
+                                max="2020-12-31">
+                            <hr class="Vertcial2" size=0 color="#C4C4C4">
+                        </div>
+                        <div class="Replacement-date">
+                            <h2 class="DateR">
+                                Fecha de reposición
+                            </h2>
+                            <input type="date" id="start" name="trip-start" value="2020-09-22" min="2019-01-01"
+                                max="2020-12-31">
+                            <hr class="Vertcial2" size=0 color="#C4C4C4">
+                        </div>
+
+                        <div class="Observations">
+                            <input type="text" value="Observaciones" name="Observaciones">
+                        </div>
+
+
+                        <div class="Upload">
+                            <label for="file-input">
+                                <img src="assets/Icons/Iconos Header/Clip.svg" />
+                            </label>
+
+                            <input id="file-input" type="file" />
+                        </div>
+
+                        <div class="ButtonC">
+                            <button type="button">
+                                <h3 class="Name">Completar</h3>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="Records3">
+                        <div class="Content">
+                            <div class="Data-Element">
+                                <h2 class="Pa">• Parche ocular (PROGRAMA SST)</h2>
+                                <h2 class="As">• ASEO Y CAFETERÍA</h2>
+                                <h2 class="Re">• Retiro</h2>
+                            </div>
+                            <hr class="Vertcial" size=0 color="#C4C4C4">
+                        </div>
+
+                        <div class="Status">
+                            <h2 class="TStatus">
+                                Estado
+                            </h2>
+                            <select class="InputP">
+                                <option>Pendiente</option>
+                            </select>
+                            <hr class="Vertcial2" size=0 color="#C4C4C4">
+                        </div>
+                        <div class="Deliver-date">
+                            <h2 class="Date">
+                                Fecha de entrega
+                            </h2>
+                            <input type="date" id="start" name="trip-start" value="2020-01-20" min="2019-01-01"
+                                max="2020-12-31">
+                            <hr class="Vertcial2" size=0 color="#C4C4C4">
+                        </div>
+                        <div class="Replacement-date">
+                            <h2 class="DateR">
+                                Fecha de reposición
+                            </h2>
+                            <input type="date" id="start" name="trip-start" value="2020-09-22" min="2019-01-01"
+                                max="2020-12-31">
+                            <hr class="Vertcial2" size=0 color="#C4C4C4">
+                        </div>
+
+                        <div class="Observations">
+                            <input type="text" value="Observaciones" name="Observaciones">
+                        </div>
+
+
+                        <div class="Upload">
+                            <label for="file-input">
+                                <img src="assets/Icons/Iconos Header/Clip.svg" />
+                            </label>
+
+                            <input id="file-input" type="file" />
+                        </div>
+
+                        <div class="ButtonC">
+                            <button type="button">
+                                <h3 class="Name">Completar</h3>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+
+    </main>
+
+
+
+</body>
+
+</html>
